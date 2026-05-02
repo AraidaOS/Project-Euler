@@ -8,7 +8,8 @@ What is the sum of the digits of the number 2^1000?
 """
 solution:
     - compute 2^1000 usint pow().
-
+    - convert n to str.
+    - iterate str whilst converting each character to int and summing it in res.
 """
 
 # :author: th4l3s
