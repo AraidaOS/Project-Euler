@@ -25,5 +25,6 @@ def main():
     res = mulof35(limit)
     print(f"sum of all multiples of 3 or 5 below {limit}: {res}")
 
+# Usage:
 if __name__ == "__main__":
     main()
