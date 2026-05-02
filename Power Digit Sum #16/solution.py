@@ -15,7 +15,7 @@ solution:
 # :author: th4l3s
 
 
-def solve(exp):
+def solve(exp: int):
     n = pow(2, exp)
     s = str(n)
     res = 0
@@ -24,7 +24,7 @@ def solve(exp):
     return res
 
 def main():
-    exp = input("Enter exponent to test: ")
+    exp = int(input("Enter exponent to test: "))
     solution = solve(exp)
     print(f"Solution: {solution}")
 
