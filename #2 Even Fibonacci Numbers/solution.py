@@ -10,9 +10,6 @@ exceed four million, find the sum of the evenvalued terms.
 
 """
 
-# :func: calculate the sum of first even 4mil fib numbers
-# :param: limit: 4,000,000
-# :rtype: int: sum of even fib numbers up to limit
 # :author: th4l3s
 
 def calcfib(limit):
